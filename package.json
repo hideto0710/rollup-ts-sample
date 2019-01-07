@@ -1,0 +1,31 @@
+{
+  "name": "rollup-ts-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "ujs": "dist/index.ujs.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -cw"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://hideto0710@github.com/hideto0710/rollup-ts-sample.git"
+  },
+  "author": "Hideto Inamura <h.inamura0710@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hideto0710/rollup-ts-sample/issues"
+  },
+  "homepage": "https://github.com/hideto0710/rollup-ts-sample#readme",
+  "devDependencies": {
+    "rollup": "^1.0.2",
+    "rollup-plugin-typescript2": "^0.18.1",
+    "typescript": "^3.2.2"
+  }
+}
